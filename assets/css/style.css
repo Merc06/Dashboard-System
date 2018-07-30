@@ -1,0 +1,46 @@
+@font-face { font-family: Century Gothic; src: url(''); } 
+* {font-family: 'Century Gothic';}
+body {
+  font-family: "Century Gothic", sans-serif;
+background-image: url("logback.jpg");
+  background-size: cover;
+    
+}
+
+.modal-header {
+    padding:0; 
+    margin:0;
+}
+
+.modal-header > img {
+    border-radius: 12px 12px 0 0;
+}
+
+.modal-content {
+    border-radius: 15px;
+}
+
+.card {
+    border-radius: 20px;
+}
+
+#login {
+    background-color: #32353c;
+    color: #fff;
+    border: none;
+    font-family: 'Century Gothic';
+}
+
+p {font-family: 'Century Gothic';}
+
+.style {
+    font-family: 'Century Gothic';
+    font-size: 40px;
+    font-weight: bold;
+}
+
+label > p.error {
+    color: red;
+    font-size: 11px;
+}
+
